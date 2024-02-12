@@ -1,0 +1,100 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  text-align: center;
+  background-color: #f7f8f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(1, 1, 1);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#balance{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#balance > h5{
+  margin-bottom: 0%;
+}
+#balance > p{
+  margin-top: 0%;
+}
+#tableofie{
+  border-collapse: collapse;
+  background-color: rgb(221, 249, 240);
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+#greenvala{
+  color: green;
+}
+#redvala{
+  color: red;
+}
+#list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#list > h5{
+  margin-bottom: 0px;
+}
+#list > hr{
+  height: 2px;
+}
+#lisitem{
+  background-color: rgb(213, 236, 236);
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 100%;
+  
+}
+#addlebel{
+  font-weight: bold;
+
+}
+#addtitle{
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+#btnn,#i1,#i2{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#btnn{
+  background-color: rgb(73, 73, 248);
+}
